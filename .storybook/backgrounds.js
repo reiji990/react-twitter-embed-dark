@@ -1,8 +1,8 @@
 const backgrounds = {
   default: 'Blue',
   values: [
-    {name: 'White', value: 'black'},
-    {name: 'Whitesmoke', value: '#B0BEC5'},
+    {name: 'White', value: '#000000'},
+    {name: 'Whitesmoke', value: 'Whitesmoke'},
     {name: 'Black', value: 'black'},
     {name: 'Red', value: '#EF9A9A'},
     {name: 'Pink', value: '#F48FB1'},

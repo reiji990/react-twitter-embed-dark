@@ -21,10 +21,6 @@ export interface TwitterTimelineEmbedBase {
    */
   autoHeight?: boolean;
   /**
-   * With dark or light theme
-   */
-  theme?: 'dark' | 'light';
-  /**
    * With custom link colors. Note: Only Hex colors are supported.
    */
   linkColor?: string;
@@ -237,7 +233,7 @@ const TwitterTimelineEmbed = (props: TwitterTimelineEmbedPropsType): any => {
     }
 
     options = Object.assign({}, options, {
-      theme: props?.theme,
+      theme: "dark",
       linkColor: props?.linkColor,
       borderColor: props?.borderColor,
       lang: props?.lang,
