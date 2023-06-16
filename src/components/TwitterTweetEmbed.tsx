@@ -28,6 +28,7 @@ export interface TwitterTweetEmbedProps {
    * Function to execute after load, return html element
    */
   onLoad?: (element: any) => void;
+  theme?: 'dark' | 'light';
 }
 
 const methodName = 'createTweet';
@@ -51,6 +52,9 @@ const TwitterTweetEmbed = (props: TwitterTweetEmbedProps): any => {
           );
           return;
         }
+        
+        // Always set theme to dark
+        props.options = { ...props.options, theme: 'dark' };
 
         window.twttr.widgets[methodName](
           props.tweetId,
