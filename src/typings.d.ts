@@ -1,4 +1,4 @@
-'use client'
+
 
 /**
  * Default CSS definition for typescript,

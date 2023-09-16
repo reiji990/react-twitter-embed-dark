@@ -1,4 +1,4 @@
-'use client'
+
 
 import React from 'react';
 import twitterWidgetJs from './twiter-widget-url';

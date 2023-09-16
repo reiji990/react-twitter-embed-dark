@@ -1,4 +1,4 @@
-'use client'
+
 import { mount } from '@cypress/react';
 import React from 'react';
 import TwitterTweetEmbed from '../../../components/TwitterTweetEmbed';

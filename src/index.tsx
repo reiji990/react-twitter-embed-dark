@@ -1,4 +1,4 @@
-'use client'
+
 import TwitterTimelineEmbed from './components/TwitterTimelineEmbed';
 import TwitterShareButton from './components/TwitterShareButton';
 import TwitterFollowButton from './components/TwitterFollowButton';
